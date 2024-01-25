@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: skyblue;
+}
+
+.one{
+height:600px;
+width:1000px;
+background-color: rgb(227, 224, 224);
+margin-top: 50px;
+margin-left: 250px;
+}
+
+nav{
+    height:75px;
+    width:52.5%;
+    padding: 0px 100px;
+    position:fixed;
+    line-height: 40px;
+    /* background-color: gray; */
+}
+
+span{
+    color:red;
+}
+
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    float:left;
+    color:black;
+    letter-spacing: 1.5px;
+    padding-top: -20px;
+    padding-top: -5px;
+    margin-top: -10px;
+}
+
+nav ul{
+float:left;
+margin-left: 200px;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a{
+    font-size: 18px;
+    padding:0px 30px;
+    color:black;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color:skyblue;
+}
+
+img{
+   height:400px;
+   margin-top: 90px; 
+   margin-left: 540px;
+}
+
+#sid{
+    color:skyblue;
+}
+
+#cntnt{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: -280px;
+    margin-left: 60px;
+}
+
+#cntntT{
+    font-family: sans-serif;
+    font-size: 18px;
+     margin-left: 60px; 
+}
+
+#btnO{
+    height:35px;
+    width:170px;
+    margin-left: 55px;
+    background-color: skyblue;
+    color:white;
+}
+
+#btnT{
+    height:35px;
+    width:120px;  
+    background-color: aliceblue;
+    color:black;
+}
